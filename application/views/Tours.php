@@ -3,16 +3,16 @@
 <head>
 <title>Tours</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/cufon-replace.js"></script>  
-<script type="text/javascript" src="js/Myriad_Pro_600.font.js"></script>
+<link rel="stylesheet" href="<?php echo base_url()?>css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo base_url()?>css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo base_url()?>css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="<?php echo base_url()?>js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="<?php echo base_url()?>js/cufon-yui.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>js/cufon-replace.js"></script>  
+<script type="text/javascript" src="<?php echo base_url()?>js/Myriad_Pro_600.font.js"></script>
 <!--[if lt IE 9]>
 	<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
-	<script type="text/javascript" src="js/html5.js"></script>
+	<script type="text/javascript" src="<?php echo base_url()?>js/html5.js"></script>
 <![endif]-->
 </head>
 <body id="page3">
@@ -21,7 +21,7 @@
 <!-- header -->
 		<header>
 			<div class="wrapper">
-				<h1><a href="index.html" id="logo">Around the World</a></h1>
+				<h1><a href="index" id="logo">Around the World</a></h1>
 				<div class="right">
 					<div class="wrapper">
 						<form id="search" action="" method="post">
@@ -44,20 +44,20 @@
 			</div>
 			<nav>
 				<ul id="menu">
-					<li><a href="index.html" class="nav1">Home</a></li>
-					<li><a href="About.html" class="nav2">About Us </a></li>
-					<li><a href="Tours.html" class="nav3">Our Tours</a></li>
-					<li><a href="Destinations.html" class="nav4">Destinations</a></li>
-					<li class="end"><a href="Contacts.html" class="nav5">Contacts</a></li>
+					<li><a href="home" class="nav1">Home</a></li>
+					<li><a href="about" class="nav2">About Us </a></li>
+					<li><a href="tours" class="nav3">Our Tours</a></li>
+					<li><a href="destinations" class="nav4">Destinations</a></li>
+					<li class="end"><a href="contacts" class="nav5">Contacts</a></li>
 				</ul>
 			</nav>
 			<div class="text">
-				<img src="images/text1.jpg" alt="">
+				<img src="<?php echo base_url()?>images/text1.jpg" alt="">
 				<h2>The Best Offers</h2>
 				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
 				<a href="#" class="button">Read More</a>
 			</div>
-			<div class="img"><img src="images/img2.jpg" alt=""></div>
+			<div class="img"><img src="<?php echo base_url()?>images/img2.jpg" alt=""></div>
 		</header>
 <!-- / header -->
 <!-- content -->
@@ -66,19 +66,19 @@
 				<h3>Hot Travel</h3>
 				<div class="pad">
 					<div class="wrapper under">
-						<figure class="left marg_right1"><img src="images/page1_img1.jpg" alt=""></figure>
+						<figure class="left marg_right1"><img src="<?php echo base_url()?>images/page1_img1.jpg" alt=""></figure>
 						<p class="pad_bot2"><strong>Italy<br>Holidays</strong></p>
 							<p class="pad_bot2">Lorem ipsum dolor sit amet, consect etuer adipiscing.</p>
 							<a href="#" class="marker_1"></a>
 					</div>
 					<div class="wrapper under">
-						<figure class="left marg_right1"><img src="images/page1_img2.jpg" alt=""></figure>
+						<figure class="left marg_right1"><img src="<?php echo base_url()?>images/page1_img2.jpg" alt=""></figure>
 						<p class="pad_bot2"><strong>Philippines<br>Travel</strong></p>
 						<p class="pad_bot2">Lorem ipsum dolor sit amet, consect etuer adipiscing.</p>
 						<a href="#" class="marker_1"></a>
 					</div>
 					<div class="wrapper">
-						<figure class="left marg_right1"><img src="images/page1_img3.jpg" alt=""></figure>
+						<figure class="left marg_right1"><img src="<?php echo base_url()?>images/page1_img3.jpg" alt=""></figure>
 						<p class="pad_bot2"><strong>Cruise<br>Holidays</strong></p>
 						<p class="pad_bot2">Lorem ipsum dolor sit amet, consect etuer adipiscing.</p>
 						<a href="#" class="marker_1"></a>
@@ -90,7 +90,7 @@
 				<div class="wrapper">
 					<article class="col3">
 						<div class="wrapper">
-							<figure class="left marg_right1"><img src="images/page3_img1.jpg" alt=""></figure>
+							<figure class="left marg_right1"><img src="<?php echo base_url()?>images/page3_img1.jpg" alt=""></figure>
 							<p><strong>Error voluptatem accutium</strong> Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo quia voluptas sit aspernatur aut odit aut fugit.</p>
 							<p>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorehjum ipsum quia dolor sit amet, consectetur vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
 							<p><strong>Voluptatum deleniti atque corrupti quos</strong> dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Et harum quidem rerum facilisest et expedita distinctio. Nam libero tepore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis voluptas assumenda.</p>

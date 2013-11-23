@@ -21,7 +21,7 @@
 <!-- header -->
 		<header>
 			<div class="wrapper">
-				<h1><a href="index.html" id="logo">Around the World</a></h1>
+				<h1><a href="index" id="logo">Around the World</a></h1>
 				<div class="right">
 					<div class="wrapper">
 						<form id="search" action="" method="post">
@@ -44,11 +44,11 @@
 			</div>
 			<nav>
 				<ul id="menu">
-					<li><a href="index.html" class="nav1">Home</a></li>
-					<li><a href="About.html" class="nav2">About Us </a></li>
-					<li><a href="aTours.html" class="nav3">Our Tours</a></li>
-					<li><a href="aDestinations.html" class="nav4">Destinations</a></li>
-					<li class="end"><a href="Contacts.html" class="nav5">Contacts</a></li>
+					<li><a href="home" class="nav1">Home</a></li>
+					<li><a href="about" class="nav2">About Us </a></li>
+					<li><a href="tours" class="nav3">Our Tours</a></li>
+					<li><a href="destinations" class="nav4">Destinations</a></li>
+					<li class="end"><a href="contacts" class="nav5">Contacts</a></li>
 				</ul>
 			</nav>
 			<article class="col1">
