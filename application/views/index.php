@@ -47,17 +47,17 @@ if (isset($_REQUEST['email']))
 
 <title>Travels 2020</title>
 
-<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="<?php echo base_url()?>img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo base_url()?>img/favicon.ico" type="image/x-icon" />
 
 <!-- Typekit Franklin Gothic -->
 <script type="text/javascript" src="//use.typekit.net/qqz5urg.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<link href="fonts/Colaborate/stylesheet.css" type="text/css" rel="stylesheet"/>
-<link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
-<script src="js/jquery-1.9.1.min.js"></script>
-<script src="js/scripts.js"></script>
+<link href="<?php echo base_url()?>fonts/Colaborate/stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="<?php echo base_url()?>css/stylesheet.css" type="text/css" rel="stylesheet"/>
+<script src="<?php echo base_url()?>js/jquery-1.9.1.min.js"></script>
+<script src="<?php echo base_url()?>js/scripts.js"></script>
 <style>
 	.sfe-break-top{
 		font-size: 36px;
@@ -73,7 +73,7 @@ if (isset($_REQUEST['email']))
 
 <div class="navbar" id="navbar">
 	<div id="navbar-logo">
-		<a href="#"><img alt="travels2020" src="img/ts_brand.png" id="homebutton"/></a>
+		<a href="#"><img alt="travels2020" src="<?php echo base_url()?>img/ts_brand.png" id="homebutton"/></a>
 	</div>
 
 	<nav>
@@ -88,7 +88,7 @@ if (isset($_REQUEST['email']))
 
 <div class="hero" id="home">
 	<div class="herologo">
-		<img src="img/ts_logo.png">
+		<img src="<?php echo base_url()?>img/ts_logo.png">
 	</div>
 
 
@@ -186,7 +186,7 @@ if (isset($_REQUEST['email']))
 
     <div class="teamcopy" id="beth">
       <div class="team-pic">
-        <a href="mailto:travels2020@gmail.com"><img src="img/mukesh_off.png" class="rollover" /></a>
+        <a href="mailto:travels2020@gmail.com"><img src="<?php echo base_url()?>img/mukesh_off.png" class="rollover" /></a>
       </div>
       <div class="teamcopy-left">
       <h3>Mukesh Kanna</h3><h6>Travel Consultant</h6>
@@ -210,12 +210,12 @@ if (isset($_REQUEST['email']))
         <h3>Travels 2020<br></h3>
       </div>
       <div id="footer-logo">
-        <img src="img/footer_logo.png">
+        <img src="<?php echo base_url()?>img/footer_logo.png">
       </div>
       <div id="footer-hr">
         <hr>
         <p>&copy;2013 Travels 2020, Inc. &nbsp; All rights reserved. &nbsp;</p>
-        <a href="https://www.facebook.com/pages/Travels2020/138377559661863" target="blank"><img src="img/fb_off.png" class="rollover"></a>
+        <a href="http://localhost/travelweb/index.php/welcome/home" target="blank"><img src="<?php echo base_url()?>img/fb_off.png" class="rollover"></a>
       </div>
     </div>
   </footer>
