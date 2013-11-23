@@ -215,7 +215,7 @@ if (isset($_REQUEST['email']))
       <div id="footer-hr">
         <hr>
         <p>&copy;2013 Travels 2020, Inc. &nbsp; All rights reserved. &nbsp;</p>
-        <a href="http://localhost/travelweb/index.php/welcome/home" target="blank"><img src="<?php echo base_url()?>img/fb_off.png" class="rollover"></a>
+        <a href="<?php echo base_url()?>index.php/welcome/home" target="blank"><img src="<?php echo base_url()?>img/fb_off.png" class="rollover"></a>
       </div>
     </div>
   </footer>
