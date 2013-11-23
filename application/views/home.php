@@ -34,9 +34,9 @@
 					<div class="wrapper">
 						<nav>
 							<ul id="top_nav">
-								<li><a href="#">Register</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Help</a></li>
+								<li><a href="<?php echo site_url('register');?>">Register</a></li>
+								<li><a href="<?php echo site_url('log_in');?>">Log In</a></li>
+								<li><a href="<?php echo site_url('403page');?>">Help</a></li>
 							</ul>
 						</nav>
 					</div>	
