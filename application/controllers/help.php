@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Log_in extends CI_Controller {
+class Help extends CI_Controller {
 
 	/**
 	 * @author kevin
@@ -14,7 +14,7 @@ class Log_in extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('log_in');
+		$this->load->view('403page');
 	}
 	
 }
